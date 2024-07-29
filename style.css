@@ -1,0 +1,19 @@
+* {
+    font-family:  'Courier New', Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: solid 1px rgb(0, 0, 0);
+    width: 760px;
+    height: 760px;
+}
