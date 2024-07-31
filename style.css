@@ -40,7 +40,6 @@ button, fieldset {
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* border: solid 1px rgb(255, 0, 0); */
 }
 
 .grid-box {

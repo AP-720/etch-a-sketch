@@ -17,7 +17,7 @@ function createGrid(gridSize) {
             const gridBox = document.createElement('div');
             gridBox.classList.add('grid-box');
             gridBox.addEventListener("mouseover", () => {
-                gridBox.style.backgroundColor = "rgb(145, 148, 153)";
+                gridBox.style.backgroundColor = "rgb(35, 35, 35)";
             })
             row.appendChild(gridBox); 
     }
@@ -58,7 +58,7 @@ brushBox.addEventListener("click", (e) => {
         const gridArray = [...blackBrush];
         gridArray.forEach((block) => {
             block.addEventListener("mouseover", () => {
-                block.style.backgroundColor = "rgb(145, 148, 153)";
+                block.style.backgroundColor = "rgb(35, 35, 35)";
             });
         })
     }
